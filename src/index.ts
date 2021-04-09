@@ -50,6 +50,10 @@ onload = () => {
             return;
         }
 
+        if (!displayer) {
+            throw new Error("The element does not exist");
+        }
+
         displayer.textContent = JSON.stringify(snap.val(), null, 4);
         console.log(root.push().key);
     });

@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "es2015",
+    "watch": false,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "alwaysStrict": true,
+    "strict": true,
+    "moduleResolution": "Node",
+    "lib": [ "DOM", "DOM.Iterable", "ES2020" ],
+    "outDir": "build/"
+  }
+}
